@@ -1,0 +1,93 @@
+@font-face {
+	font-family: 'Jost'; 
+	src: local('Jost'),
+		url(/fonts/Jost.ttf); 
+}
+
+body {
+    margin: 0;
+
+}
+
+.first_block {
+    width: 100%;
+    height: 100%;
+    background-color: #141024;
+}
+
+.header {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    color: white;
+    font-family: 'Jost';
+    font-size: 30px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr; 
+
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin: 0;
+    font-size: 20px;
+    grid-area: 1/5/2/9;
+    padding-top: 8px;
+}
+
+.logo {
+    font-weight: 700;
+    grid-area: 1/1/2/2;
+}
+
+.number_phone {
+    font-weight: 600;
+    grid-area: 1/11/2/13;
+}
+
+.form-kurs {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    font-family: 'Jost';
+    color: white;
+    margin-top: 100px;
+}
+
+.logo-form {
+    font-size: 70px;
+    font-weight: 600;
+
+}
+
+.red_button {
+    width: 260px;
+    height: 80px;
+    padding: 25px 54px 25px 54px;
+    border-radius: 5px;
+    background-color: #D52027;
+    color: white;
+    font-family: 'Jost';
+    font-size: 18px;
+    font-weight: 400;
+    border: 0;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.form-kurs .text {
+    margin-top: 20px;
+}
+
+.form-kurs img {
+    width: 783px;
+    height: 918px;
+    grid-area: 1 / 7 / 8 / 11;
+}
+
+.form-kurs .left-side {
+    grid-area: 3 / 3 / 8 / 7;
+}
