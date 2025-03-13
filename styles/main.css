@@ -6,7 +6,7 @@
 
 body {
     margin: 0;
-
+    font-family: 'Jost';
 }
 
 .first_block {
@@ -20,7 +20,7 @@ body {
     padding-right: 100px;
     padding-top: 30px;
     color: white;
-    font-family: 'Jost';
+    
     font-size: 30px;
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
@@ -90,4 +90,39 @@ body {
 
 .form-kurs .left-side {
     grid-area: 3 / 3 / 8 / 7;
+}
+
+.second_block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    padding-left: 380px;
+    padding-right: 380px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+}
+
+.second_block .text {
+    font-size: 30px;
+    grid-area: 1 / 1 / 2 / 9;
+}
+
+.statistic {
+    grid-area: 2 / 1 / 2 / 13;
+}
+
+.statistic ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    gap: 40px;
+    color: #141024b2;
+    font-size: 18px;
+}
+
+.statistic b {
+    color: #D52027;
+    font-size: 70px;
+    font-weight: 600;
 }
