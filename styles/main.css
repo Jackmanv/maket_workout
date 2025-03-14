@@ -189,3 +189,55 @@ body {
 .button:hover .tooltip-text{
     opacity: 1;
 }
+
+.fourth_block {
+    padding-left: 380px;
+    padding-right: 380px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+.fourth_block .zag {
+    font-size: 50px;
+}
+
+.slider {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    gap: 40px;
+}
+
+.slider ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.slider li {
+    flex: none;
+    scroll-snap-align: start;
+  }
+.slider .name {
+    font-size: 24px;
+    color: black;
+}
+
+.slider .specific {
+    font-size: 18px;
+    color: #141024B2;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.slider .more {
+    font-size: 18px;
+    color: #D52027;
+}
+
+.slider img{
+    width: 340px;
+    max-height: 472px;
+    border-radius: 15px;
+}
