@@ -126,3 +126,66 @@ body {
     font-size: 70px;
     font-weight: 600;
 }
+
+.third_block {
+    padding-left: 380px;
+    padding-right: 380px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F9F9F9;
+}
+
+.third_block .zag {
+    font-size: 50px;
+}
+
+.third_block ul {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    color: #141024b2;
+    font-size: 18px;
+}
+
+.third_block ul b {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.third_block ul li {
+    margin-top: 20px;
+}
+
+.third_block .instruction {
+    border-radius: 50px;
+    border: 0;
+    padding: 2px 12px 2px 12px;
+    background-color: #14102414;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.third_block .button{
+    position: relative;
+}
+
+.third_block .tooltip-text {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 15px 20px 15px 20px;
+    width: 250px;
+    box-shadow: 0px 2px 8px 0px rgba(34, 60, 80, 0.1);
+    bottom: 40px;
+    left: 0px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.button:hover .tooltip-text{
+    opacity: 1;
+}
