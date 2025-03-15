@@ -241,3 +241,74 @@ body {
     max-height: 472px;
     border-radius: 15px;
 }
+
+.view_window {
+    padding: 40px;
+    width: 940px;
+    max-height: 768px;
+    border-radius: 20px;
+    background-color: #F9F9F9;
+    margin-left: auto;
+    margin-right: auto;
+    color: #141024;
+    font-size: 20px;
+}
+
+.view_window .name {
+    font-size: 24px;
+    color: black;
+}
+
+.view_window .specific {
+    font-size: 18px;
+    color: #141024B2;
+    padding: 10px 0;
+}
+
+.view_window .photo {
+    width: 160px;
+    height: 220px;
+    border-radius: 15px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+.view_window .first_part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.view_window .left_part {
+    display: flex;
+}
+
+.view_window .close {
+    color: #141024B2;
+    font-size: 18px;
+}
+
+.view_window .second_part input[type=radio] {
+    display: none;
+}
+
+.mdl-radio__button:checked ~ .checked_label {
+    color: #D52027;
+}
+
+.checked_label {
+    margin-right: 180px;
+}
+
+.second_part hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.third_part {
+    height: 350px;
+    overflow: auto;
+}
+
+.third_part::-webkit-scrollbar-button {
+    display: none;
+}
