@@ -234,6 +234,7 @@ body {
 .slider .more {
     font-size: 18px;
     color: #D52027;
+    cursor: pointer;
 }
 
 .slider img{
@@ -252,6 +253,17 @@ body {
     margin-right: auto;
     color: #141024;
     font-size: 20px;
+    position: fixed;
+    top: 10%;
+    left: 22.5%;
+}
+
+.backgray {
+    background-color: #3636368e;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 1px;
 }
 
 .view_window .name {
@@ -285,6 +297,7 @@ body {
 .view_window .close {
     color: #141024B2;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .view_window .second_part input[type=radio] {
@@ -311,4 +324,119 @@ body {
 
 .third_part::-webkit-scrollbar-button {
     display: none;
+}
+
+.job_exp{
+    display: none;
+}
+
+.achievements{
+    display: none;
+}
+
+.fifth_block {
+    padding-left: 380px;
+    padding-right: 380px;
+    padding-top: 100px;
+    background-color: white;
+}
+
+.fifth_block .zag {
+    font-size: 50px;
+}
+
+.fifth_block .packages {
+    display: flex;
+    justify-content: space-between;
+}
+
+.frame {
+    width: 360px;
+    height: 460px;
+    border: 1px #14102433 solid;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 60px;
+    transition: height 0.3s ease;
+    transition: background-color 0.3s ease;
+    margin-bottom: 100px;
+}
+
+.frame:hover {
+    background-color: #141024;
+    color: white;
+    height: 500px;
+    margin-bottom: 60px;
+}
+
+.price {
+    font-size: 50px;
+    padding-top: 83px;
+    padding-bottom: 20px;
+}
+
+.name_packege {
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+
+.package_btn {
+    background-color: #D52027;
+    color: white;
+    border: 0;
+    padding: 25px 78px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.sixth_block {
+    background-color: #D52027;
+    color: white;
+    padding-left: 380px;
+    padding-right: 380px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sixth_block h2 {
+    margin: 0;
+}
+
+.sixth_block form {
+    display: block;
+}
+
+.sixth_block form input {
+    font-family: 'jost';
+    font-size: 18px;
+    width: 500px;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 25px 0px 25px 25px;
+}
+
+.sixth_block form button {
+    font-family: 'jost';
+    font-size: 18px;
+    width: 525px;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 25px;
+    background-color: #141024;
+    color: white;
+}
+
+footer {
+    background-color: #141024;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px 40px 100px;
 }
